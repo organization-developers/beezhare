@@ -1,0 +1,24 @@
+.home {
+    &_topcontent {
+        padding-top: 70px;
+        height: 100vh;
+        &_contentfluid {
+            &_row {
+                height: 100%;
+                align-items: center;
+                &_left {
+                    text-align: left;
+                    h1 {
+                        color: #60B92A;
+                    }
+                    p {
+                        color: #68C72E;
+                    }
+                }
+                &_right {
+                    text-align: right;
+                }
+            }
+        }
+    }
+}

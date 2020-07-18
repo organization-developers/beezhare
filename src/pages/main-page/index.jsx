@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import mainPageStyles from './main-page.module.scss';
+// import mainPageStyles from './main-page.module.scss';
 
 // Page Imports
 import { HomePage } from '../';
