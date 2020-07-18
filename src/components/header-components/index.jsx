@@ -47,7 +47,10 @@ export default function HeaderComponent() {
 
 const HeaderComp = styled.header`
   background: transparent;
+  /* background: rgb(65, 173, 55);
+  box-shadow: 0px 0px 16px rgb(65, 173, 55); */
   padding-top: 10px;
+  padding-bottom: 10px;
 `
 const ButtonSignInHeader = styled.button`
   padding: 8px 24px;

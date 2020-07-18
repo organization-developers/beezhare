@@ -1,8 +1,10 @@
 .home {
+    // topContent
     &_topcontent {
-        padding-top: 70px;
+        padding-top: 50px;
         height: 100vh;
         &_contentfluid {
+            padding: 20px;
             &_row {
                 height: 100%;
                 align-items: center;
@@ -21,4 +23,84 @@
             }
         }
     }
+    // End topContent
+
+    // about
+    &_about {
+        background: #68C72E;
+        padding-top: 50px;
+        &_aboutfluid {
+            padding: 20px;
+            &_rowtop {
+                padding-bottom: 20px;
+                text-align: center;
+                &_h3 h3 {
+                    font-weight: bold;
+                    color: #FFFFFF;
+                }
+            }
+            &_rowbottom {
+                padding-top: 20px;
+                &_left {
+                    text-align: center;
+                }
+                &_right {
+                    text-align: left;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+    // End About
+
+    // Fitur
+    &_fitur {
+        background: #FFFFFF;
+        padding-top: 50px;
+        &_fiturfluid {
+            padding: 20px;
+            &_rowtop {
+                padding-bottom: 20px;
+                text-align: center;
+                &_h3 h3 {
+                    font-weight: bold;
+                    color: #68C72E;
+                }
+            }
+            &_rowbottom {
+                padding-top: 20px;
+                &_left {
+                    text-align: center;
+                    &_text h4 {
+                        color: #25DF14;
+                    }
+                }
+                &_right {
+                    text-align: center;
+                    &_text h4 {
+                        color: #25DF14;
+                    }
+                }
+            }
+        }
+    }
+    // End Fitur
+
+    &_testimoni {
+        background: #68C72E;
+        padding-top: 50px;
+        &_testimonifluid {
+            padding: 20px;
+            &_rowtop {
+                padding-bottom: 20px;
+                text-align: center;
+                &_h3 h3 {
+                    font-weight: bolder;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+    // End About
 }
+
